@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mexant 
-        image: 203981192956.dkr.ecr.us-east-1.amazonaws.com/mexant 
+        image: 203981192956.dkr.ecr.us-east-1.amazonaws.com/mexant:12
         ports:
         - containerPort: 80
 ---
